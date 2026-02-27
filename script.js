@@ -18,7 +18,7 @@ entry.forEach(singleEntry => {
             captureText = [];
         }
 
-        if (/^[²x÷]/.test(captureText.join(""))) {
+        if (/^[²x÷=]/.test(captureText.join(""))) {
             output.textContent = `${singleEntry.textContent} Not supported as first entry!`
             captureText = [];
         }
@@ -36,7 +36,7 @@ entry.forEach(singleEntry => {
             evaluation = math.evaluate(expression)
             console.log(evaluation);
             output.textContent = `${originalExp}=${evaluation}`;
-            answer.textContent = '👍';
+            answer.textContent = '';
             captureText = [];
 
         }

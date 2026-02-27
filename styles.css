@@ -27,6 +27,7 @@
     width: 100%;
     height: 100px;
     background-color: #8F9779;
+    box-shadow: 2px 2px 2px rgba(92, 91, 91, 0.5);
 }
 
 #answer {
