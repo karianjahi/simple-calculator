@@ -90,7 +90,7 @@ folder to `/ (root)` 4. Save
 
 Your app will be available at:
 
-    https://<username>.github.io/<repository-name>/
+    https://karianjahi.github.io/simple-calculator/
 
 ------------------------------------------------------------------------
 
