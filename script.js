@@ -13,6 +13,7 @@ entry.forEach(singleEntry => {
         captureText.push(singleEntry.textContent)
         output.textContent = captureText.join("");
         if (singleEntry.textContent === "AC") {
+            answer.textContent = "";
             output.textContent = "";
             captureText = [];
         }
@@ -35,6 +36,7 @@ entry.forEach(singleEntry => {
             evaluation = math.evaluate(expression)
             console.log(evaluation);
             output.textContent = `${originalExp}=${evaluation}`;
+            answer.textContent = '👍';
             captureText = [];
 
         }
