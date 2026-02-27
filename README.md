@@ -15,6 +15,10 @@ evaluation.
 
 ------------------------------------------------------------------------
 
+## 📸 Preview
+
+![Calculator Preview](images/preview.png)
+
 ## ✨ Features
 
 -   ➕ Addition\
@@ -44,9 +48,11 @@ evaluation.
 
     simple-calculator/
     │
-    ├── index.html      # Main structure
-    ├── styles.css      # UI styling
-    ├── script.js       # Calculator logic
+    ├── index.html
+    ├── styles.css
+    ├── script.js
+    ├── images/
+    │   └── preview.png
     ├── LICENSE
     └── README.md
 
@@ -107,7 +113,6 @@ Your app will be available at:
 
 ## 📸 Preview
 
-`<img src="https://karianjahi.github.io/simple-calculator/" width="600"/>`{=html}
 
 ------------------------------------------------------------------------
 
